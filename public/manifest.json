@@ -1,8 +1,8 @@
 {
-  "$schema": "../node_modules/@lobehub/chat-plugin-sdk/schema.json",
+  "$schema": "../node_modules/@aipmorg/chat-plugin-sdk/schema.json",
   "api": [
     {
-      "url": "https://bilibili.chat-plugin.lobehub.com/api/search",
+      "url": "https://chat-plugin-bilibili.theforage.cn/api/search",
       "name": "searchVideo",
       "description": "Search videos by keywords",
       "parameters": {
@@ -17,7 +17,7 @@
       }
     },
     {
-      "url": "https://bilibili.chat-plugin.lobehub.com/api/replay",
+      "url": "https://chat-plugin-bilibili.theforage.cn/api/replay",
       "name": "videoReplay",
       "description": "get video replay by video avid",
       "parameters": {
@@ -32,7 +32,7 @@
       }
     },
     {
-      "url": "https://bilibili.chat-plugin.lobehub.com/api/danmaku",
+      "url": "https://chat-plugin-bilibili.theforage.cn/api/danmaku",
       "name": "videoDanmaku",
       "description": "get video danmaku by video avid",
       "parameters": {
@@ -47,7 +47,7 @@
       }
     },
     {
-      "url": "https://bilibili.chat-plugin.lobehub.com/api/popular",
+      "url": "https://chat-plugin-bilibili.theforage.cn/api/popular",
       "name": "popularVideo",
       "description": "get global popular videos from bilibili with no keywords",
       "parameters": {
@@ -56,7 +56,7 @@
       }
     },
     {
-      "url": "https://bilibili.chat-plugin.lobehub.com/api/hot-search",
+      "url": "https://chat-plugin-bilibili.theforage.cn/api/hot-search",
       "name": "hotSearch",
       "description": "get hot-search keywords from bilibili, return top 10 keywords",
       "parameters": {
@@ -65,12 +65,12 @@
       }
     }
   ],
-  "author": "LobeHub",
-  "createdAt": "2024-01-27",
-  "homepage": "https://github.com/lobehub/chat-plugin-bilibili",
+  "author": "AiPMHub",
+  "createdAt": "2024-06-28",
+  "homepage": "https://github.com/aipmhub/chat-plugin-bilibili",
   "identifier": "bilibili",
   "meta": {
-    "avatar": "https://bilibili.chat-plugin.lobehub.com/logo.webp",
+    "avatar": "https://chat-plugin-bilibili.theforage.cn/logo.webp",
     "tags": ["video", "bilibili", "search"],
     "title": "Bilibili",
     "description": "Dive into Bilibili's vast content with features like keyword video search, replay access, interactive danmaku, trending video recommendations, and hot-search insights, all at your fingertips."

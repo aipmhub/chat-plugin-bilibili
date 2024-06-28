@@ -1,5 +1,5 @@
 {
-  "$schema": "../node_modules/@lobehub/chat-plugin-sdk/schema.json",
+  "$schema": "../node_modules/@aipmorg/chat-plugin-sdk/schema.json",
   "api": [
     {
       "url": "http://localhost:3400/api/search",
@@ -65,10 +65,10 @@
       }
     }
   ],
-  "author": "LobeHub",
-  "createdAt": "2024-01-27",
+  "author": "AiPMHub",
+  "createdAt": "2024-06-28",
   "gateway": "http://localhost:3400/api/gateway",
-  "homepage": "https://github.com/lobehub/chat-plugin-bilibili",
+  "homepage": "https://github.com/aipmhub/chat-plugin-bilibili",
   "identifier": "bilibili",
   "meta": {
     "avatar": "http://localhost:3400/logo.webp",

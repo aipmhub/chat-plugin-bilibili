@@ -1,4 +1,4 @@
-import { PluginErrorType, createErrorResponse } from '@lobehub/chat-plugin-sdk';
+import { PluginErrorType, createErrorResponse } from '@aipmorg/chat-plugin-sdk';
 
 import { fetchPopular } from '@/servers/fetchPopular';
 
